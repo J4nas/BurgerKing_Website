@@ -1,0 +1,273 @@
+::selection {
+    background-color: rgb(138, 45, 27); 
+    color: rgb(253, 239, 219); 
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Lilita One", sans-serif;
+    background-color: #4d3f2a;
+}
+
+.nav1 {
+    background-color: #473A27;
+    padding: 20px 0;
+    margin: 0;
+}
+
+.nav1 {
+    padding: 5px 0;
+}
+
+.ul1 {
+    list-style: none;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    margin: 0;
+    padding: 0;
+}
+
+.menuuu {
+    color: #EB7159;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 6px;
+}
+
+.menuli {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    justify-content: left;
+    margin: 0;
+    padding: 0;
+    color: rgb(219, 216, 211);
+    font-size: 20px;
+    margin-left: 70px;
+}
+
+.menuli li {
+    transition: color 0.3s;
+}
+
+.menuli li:hover {
+    color: #EB7159;
+    cursor: pointer;
+}
+
+.menuimg img {
+    width: 60px;
+    margin-right: 173px;
+}
+
+.menuimg img:hover {
+    cursor: pointer;
+}
+
+.welcome1 {
+    background-color: #462C23;
+    padding: 20px 0;
+    margin: 0;
+}
+
+.welcome-container {
+    display: flex;
+    justify-content: center;
+}
+
+.inputwelcoe h2 {
+    font-size: 55px;
+    font-weight: bold;
+    color: rgb(253, 239, 219);
+}
+
+.menumenu {
+    background-color: #4d3f2a;
+}
+
+.container-menuu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.box-menus1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row; 
+    margin-top: 0;
+}
+
+.box-menus2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row; 
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.box-menus3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row; 
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.box10,
+.box9,
+.box8,
+.box7,
+.box6,
+.box4,
+.box3,
+.box2,
+.box1,
+.box5 {
+    margin-right: 25px; 
+    background-color: #262828;
+    border-radius: 12px 12px 12px 12px;
+    box-shadow: 0 0 10px 1px #2e2518;
+}
+
+.box10:hover,
+.box9:hover,
+.box8:hover,
+.box7:hover,
+.box6:hover,
+.box4:hover,
+.box3:hover,
+.box2:hover,
+.box1:hover,
+.box5:hover {
+    cursor: pointer;
+}
+
+.box10 img,
+.box9 img,
+.box8 img,
+.box7 img,
+.box6 img,
+.box4 img,
+.box3 img,
+.box2 img,
+.box1 img,
+.box5 img {
+    width: 375px; 
+    border-radius: 12px 12px 0 0;
+}
+
+.box10 h3,
+.box9 h3,
+.box8 h3,
+.box7 h3,
+.box6 h3,
+.box4 h3,
+.box3 h3,
+.box2 h3,
+.box1 h3,
+.box5 h3 {
+    color: rgb(219, 216, 211);
+    font-size: 25px;
+    font-weight: lighter;
+    text-align: center;
+    margin: 0;
+    background-color: #262828;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 0 0 12px 12px;
+}
+
+.footersec {
+    background-color: #28110F;
+    padding: 20px 100px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.footer-gesamt-inhalt {
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+}
+
+.footer-gesetz h3,
+.footer-verantwortung h3,
+.footer-bkunddu h3,
+.footer-info h3 {
+    font-size: 28px;
+    color: rgb(253, 239, 219);
+    font-weight: 100;
+    margin-bottom: 0;
+}
+
+.footer-gesetz p,
+.footer-verantwortung p,
+.footer-bkunddu p,
+.footer-info p {
+    margin-top: 15px;
+    color: rgba(193, 188, 181, 0.702);
+    font-weight: lighter;
+    line-height: 7px;
+    transition: color 0.3s;
+}
+
+.footer-gesetz p:hover,
+.footer-verantwortung p:hover,
+.footer-bkunddu p:hover,
+.footer-info p:hover {
+    color: rgba(193, 188, 181, 0.898);
+    cursor: pointer;
+}
+
+.footer-img img {
+    width: 115px;
+    margin-top: 32px;
+}
+
+.footer-img img:hover {
+    cursor: pointer;
+}
+
+.buttonsnav {
+    margin-right: 70px;
+}
+
+.mybk {
+   color: rgb(252, 251, 249);
+   background-color: rgb(154, 51, 30);
+   border-style: none;
+   padding: 7px 23px;
+   border-radius: 13px;
+   font-size: 14px;
+   font-weight: 100;
+   font-family: "Lilita One", sans-serif;
+   transition: background-color 0.3s;
+}
+
+.mybk:hover {
+    background-color: rgb(138, 45, 27);
+    cursor: pointer;
+}
+
+.moneybag {
+   color: rgb(252, 251, 249);
+   background-color: rgb(70, 44, 35);
+   border: 1px solid rgb(139, 132, 122);
+   padding: 7px 23px;
+   border-radius: 13px;
+   font-size: 14px;
+   font-weight: 100;
+   font-family: "Lilita One", sans-serif;
+   margin-left: 15px;
+}
